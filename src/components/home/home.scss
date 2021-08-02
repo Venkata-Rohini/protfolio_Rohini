@@ -1,0 +1,26 @@
+$myColor: red;
+
+h1 {
+  color: $myColor;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .html {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .html {
+    width: 100%;
+  }
+}
