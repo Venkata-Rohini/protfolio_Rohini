@@ -1,11 +1,11 @@
 export const ProjectData = [
   {
     id: 1,
-    title: "My Resume",
-    about: "Developed responisive website using react",
+    title: "Protfolio",
+    about: "Developed responisive website",
     tags: ["React Js", "NodeJs", "SCSS", "Heroku", "HTML", "Javascript"],
-    demo: "www.example.com",
-    github: "www.example.com"
+    demo: "https://protfoliofullstackdevrohini.herokuapp.com/",
+    github: "https://github.com/Venkata-Rohini/protfolio_Rohini"
   },
   {
     id: 2,
@@ -21,7 +21,8 @@ export const ProjectData = [
       "CSS",
       "Javascript"
     ],
-    demo: "app-release.apk",
+    demo:
+      "https://drive.google.com/file/d/1Lj9NHXRmNYGZVEST7VTjbakP21Xpm592/view?usp=sharing",
     github: "https://github.com/Venkata-Rohini/ToDoListApp"
   },
   {
@@ -29,14 +30,15 @@ export const ProjectData = [
     title: "To Do List API",
     about: "Developed personal to do list app",
     tags: ["GQL", "NodeJs", "Heroku", "Apollo Server", "MongoDB", "Javascript"],
-    demo: "schema",
+    demo:
+      "https://docs.google.com/document/d/1IFbPGrIr0ZSPlG78BzrcVpx4Y9lvXSPYV0cw--VSGfA/edit?usp=sharing",
     github: "http://todolistpoc.herokuapp.com/taskGQL"
   },
   {
     id: 4,
     title: "GSS web Portal/Mobile App",
     about:
-      "Mobile App built for pharmaceutical client, to view sales about products and competitor sales values.In table ,charts,maps,notification",
+      "Mobile App built for BI KPIs and Notifications on business rules for pharmacutetical client to view own sales about products and competitor sales.In table ,charts,maps,notification",
     tags: [
       "React Native",
       "NodeJs",
@@ -47,9 +49,7 @@ export const ProjectData = [
       "HTML",
       "CSS",
       "Javascript"
-    ],
-    demo: "www.example.com",
-    github: "www.example.com"
+    ]
   },
 
   {
@@ -66,14 +66,13 @@ export const ProjectData = [
       "HTML",
       "CSS",
       "Javascript"
-    ],
-    demo: "www.example.com",
-    github: "www.example.com"
+    ]
   },
   {
     id: 6,
     title: "Syndicated Analytics Platform/Loreley",
-    about: "Microsoft technologies based product for Pharma companies",
+    about:
+      "Microsoft technologies based product for Pharma companies,Built BI rules using .Net framework & Kendo UI and Developed Data flow controlling application using .Net framework & D3JS,Playing role as scrum master",
     tags: [
       "Kendo UI",
       "D3JS",
@@ -84,16 +83,13 @@ export const ProjectData = [
       "HTML",
       "CSS",
       "Javascript"
-    ],
-    demo: "www.example.com",
-    github: "www.example.com"
+    ]
   },
   {
     id: 6,
     title: "Work@ ( Social Media App )",
-    about: "Worked on API ,social media integration for Job referral post.",
-    tags: ["MVC", "DotNet ", "C#", "HTML", "CSS", "Javascript"],
-    demo: "www.example.com",
-    github: "www.example.com"
+    about:
+      "Worked on API ,social media integration for Job referral post.Worked on .Net application building Facebook API,Contributed in building components for Job Portal Career builder,Worked on validation for Qwik Silver loyalty card product.",
+    tags: ["MVC", "DotNet ", "C#", "HTML", "CSS", "Javascript"]
   }
 ];

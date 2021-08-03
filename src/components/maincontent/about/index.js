@@ -1,27 +1,22 @@
 import React from "react";
 import "./about.scss";
-import SocialContact from "../../common/socialContact";
 function About() {
   return (
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Myself Rohini,
-          <br />
+          Lead developer with 10 years of experience in building high impact web
+          and mobile products for pharmaceutical and healthcare industry.
+          Believes in adopting new technologies, design practices and innovative
+          methodologies. Effective team leader follows agile approach and
+          playing role as scrum master. Expertise in stakeholder management and
+          collaborate between onshore and offshore team with excellent
+          communication skills.
+          {/* <br />
           <span className="name-info"> Lead developer </span>with 9+ years of
-          experience in building high impact web and <br />
-          mobile products for pharmaceutical and healthcare industry. hey
+          experience in building high impact web and mobile products for
+          pharmaceutical and healthcare industry. hey */}
         </div>
-        <div className="photo-info">
-          <img
-            alt=""
-            src={require("../../../assets/images/profile.png").default}
-            className="picture"
-          />
-        </div>
-      </div>
-      <div className="bottom-section">
-        <SocialContact />
       </div>
     </div>
   );

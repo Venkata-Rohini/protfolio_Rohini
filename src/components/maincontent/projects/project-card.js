@@ -13,11 +13,15 @@ function ProjectCard({ project }) {
           )}
           {project.github && (
             <a className="project-link" href={project.github}>
-              <div className="link-button">GIthub</div>
+              <div className="link-button">Github</div>
             </a>
           )}
         </div>
-        <p>{project.about}</p>
+      </div>
+      <div>
+        <div className="projectTitle">
+          <p>{project.about}</p>
+        </div>
         <div className="project-tags">
           {project.tags.map(tag => {
             return <label className="tag">{tag},</label>;

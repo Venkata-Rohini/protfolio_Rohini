@@ -1,37 +1,45 @@
 .project-card {
   flex: 1;
-
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 16px 0px;
+  align-items: flex-start;
   padding: 8px 0px;
+  flex-direction: column;
 }
 .project-info {
   margin-right: 24px;
+  display: flex;
 }
 
 .project-title {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .project-tags {
   display: flex;
+  font-size: 12px;
   max-width: 100%;
   flex-wrap: wrap;
 }
+.projectTitle {
+}
 .tag {
   padding: 4px;
+  font-size: 10px;
+  font-weight: bold;
   border-radius: 4px;
-  margin-bottom: 4px;
   font-style: italic;
 }
 .project-links a {
   color: black;
 }
+
+.project-link {
+  text-decoration: none;
+}
+
 .project-links {
-  margin-top: 6px;
   display: flex;
 }
 .link-button {
@@ -39,9 +47,9 @@
   justify-content: center;
   align-items: center;
   width: max-content;
-  padding: 4px 8px;
   border-radius: 4px;
-  font-size: 16px;
+  padding: 5px;
+  font-size: 8px;
 }
 .link-button i {
   display: flex;
@@ -52,6 +60,7 @@
     flex-direction: column-reverse;
   }
   .project-info {
+    display: flex;
     margin-left: 0px;
     margin-top: 12px;
   }
