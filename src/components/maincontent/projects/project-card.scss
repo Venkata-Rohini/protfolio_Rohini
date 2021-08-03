@@ -55,7 +55,7 @@
 }
 @media only screen and (max-width: 720px) {
   .project-card {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .project-info {
     display: flex;

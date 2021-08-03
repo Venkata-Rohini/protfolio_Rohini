@@ -2,7 +2,7 @@ export const ProjectData = [
   {
     id: 1,
     title: "Protfolio",
-    about: "Developed responisive website",
+    about: "Protfolio using React Js",
     tags: ["React Js", "NodeJs", "SCSS", "Heroku", "HTML", "Javascript"],
     demo: "https://protfoliofullstackdevrohini.herokuapp.com/",
     github: "https://github.com/Venkata-Rohini/protfolio_Rohini"
@@ -10,7 +10,7 @@ export const ProjectData = [
   {
     id: 2,
     title: "To Do List App",
-    about: "Developed personal to do list app",
+    about: "To do list app using react native",
     tags: [
       "GQL",
       "React Native",
@@ -28,7 +28,7 @@ export const ProjectData = [
   {
     id: 3,
     title: "To Do List API",
-    about: "Developed personal to do list app",
+    about: "Backend API's for to do list app",
     tags: ["GQL", "NodeJs", "Heroku", "Apollo Server", "MongoDB", "Javascript"],
     demo:
       "https://docs.google.com/document/d/1IFbPGrIr0ZSPlG78BzrcVpx4Y9lvXSPYV0cw--VSGfA/edit?usp=sharing",
@@ -38,7 +38,7 @@ export const ProjectData = [
     id: 4,
     title: "GSS web Portal/Mobile App",
     about:
-      "Mobile App built for BI KPIs and Notifications on business rules for pharmacutetical client to view own sales about products and competitor sales.In table ,charts,maps,notification",
+      "Mobile App built for BI KPIs and Notifications on business rules for pharmacutetical client to view own sales about products and competitor sales.In table ,charts,maps format",
     tags: [
       "React Native",
       "NodeJs",
