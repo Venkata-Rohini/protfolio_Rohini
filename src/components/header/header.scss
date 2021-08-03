@@ -55,6 +55,7 @@
 }
 .web-option-icon {
   display: "flex";
+  flex-direction: row;
   margin-left: 15px;
 }
 .web-option a {
@@ -96,6 +97,7 @@
   }
   .web-option-icon {
     display: "flex";
+    flex-direction: row;
     margin-top: 10px;
   }
 }
