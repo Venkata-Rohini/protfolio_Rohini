@@ -13,7 +13,6 @@ function index() {
       <div>
         <MainContent />
       </div>
-      <Footer />
     </div>
   );
 }

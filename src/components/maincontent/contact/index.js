@@ -6,10 +6,9 @@ function Contact() {
   return (
     <div className="contact">
       <Separator />
-      <label className="section-title">Contact</label>
       <div className="contact-container">
         <div className="contact-left">
-          <p>Want to get in touch? Contact me on any of the platform</p>
+          <h6>Want to get in touch? Contact me on any of the platform</h6>
           <SocialContact />
         </div>
         <div className="download">
@@ -21,7 +20,7 @@ function Contact() {
             }
           >
             <i class="fi-rr-cloud-download download-icon" />
-            Download Resume
+            &nbsp;Download Protfolio
           </a>
         </div>
       </div>

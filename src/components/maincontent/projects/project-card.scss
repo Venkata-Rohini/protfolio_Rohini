@@ -21,8 +21,10 @@
   font-size: 12px;
   max-width: 100%;
   flex-wrap: wrap;
+  margin-top: -10px;
 }
 .projectTitle {
+  margin-top: -10px;
 }
 .tag {
   padding: 4px;
@@ -33,10 +35,6 @@
 }
 .project-links a {
   color: black;
-}
-
-.project-link {
-  text-decoration: none;
 }
 
 .project-links {
